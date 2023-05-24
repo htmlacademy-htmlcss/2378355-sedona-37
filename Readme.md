@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Макар Коноплёв](https://up.htmlacademy.ru/htmlcss/37/user/2378355).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
