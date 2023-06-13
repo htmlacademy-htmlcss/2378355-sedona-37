@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title class="visually-hidden">Каталог Седоны</title>
+  <meta name="viewport" content="width=devise-width, initial-scale=1.1">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="page-header" data-test="header">
+  <nav class="navigation">
+    <p class="logo">
+    <a class="navigation-logo" href="index.html"><img src="sedona.jpg" alt="Логотип Седоны" width="90" height="44"></a>
+    </p>
+     <ul class="navigation-list">
+      <li><a href="index.html">Главная</a></li>
+        <li class="navigation-item"><a href="#">О Седоне<br>(эта функция в данный момент не доступна!)</a></li>
+        <li class="navigation-item"><a href="catalog.html">Каталог</a></li>
+    </ul>
+      <ul>
+      <li class="navigation-item"><a href="#"><img src="searchesedona.jpg" alt="Поиск" width="15" height="14">(эта функция в данный момент не доступна!)</a></li>
+      <li class="navigation-item"><a href="#"><img src="likesedonaone.jpg" alt="Избранные" width="40" height="19">(эта функция в данный момент не доступна!)</a></li>
+      <li class="navigation-item"><a href="#">Заинтерисовались?<br>(эта функция в данный момент не доступна!)</a></li></ul>
+  </nav>
+  </header>
+  <main>
+    <h1>Каталог гостиниц в Седоне</h1>
+    <a href="index.html"><img src="homesedona.jpg" alt="Главная" width="20" height="18"></a><img src="thearrow.jpg" alt="Стрелка" width="17" height="16">
+    <h5>Гостиницы</h5>
+    <fieldset class="catalog-filter-group">
+     <legend class="catalog-filter-title">Инфраструктура:</legend>
+       <label class="control"><input class="control-input" type="checkbox" checked name="infrastrukture" value="pool">Басcеин</label>
+       <label class="control"><br><input class="control-input" type="checkbox" checked name="infrastrukture" value="parking-space">Парковка</label>
+      <label class="control"><br><input class="control-input" type="checkbox" name="infrastrukture" value="Wi-Fi">Wi-Fi</label>
+    </fieldset>
+    <fieldset class="catalog-filter-group">
+     <legend class="catalog-filter-title">Тип жилья:</legend>
+       <label class="control"><input class="control-input" type="radio" checked name="type_life" value="Hotel">Гостиница</label>
+       <br><label class="control"><input class="control-input" type="radio" name="type_life" value="Motel">Мотель</label>
+       <br><label class="control"><input class="control-input" type="radio" name="type_life" value="Apartments">Апартамены</label>
+    </fieldset>
+    <fieldset class="catalog-filter-group">
+     <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+       <input type="number" name="number_IN" id="number_IN" min="0" max="9000" placeholder="0         ОТ">
+       <input type="number" name="number_OUT" id="number_OUT" min="0" max="9000" placeholder="9000  ДО"></fieldset>
+       <button type="submit" class="button-submit">Применить</button>
+       <button type="reset" class="button-reset">Сбросить</button>
+       <section>
+       <label>Всего найдо:</label>
+       <input name="number-found" value="38" disabled>
+       <select class="select-control">
+        <option value="popular">Сначало популярные</option>
+        <option value="expensive">Сначало дорогие</option>
+        <option value="cheap">Сначало дешовые</option>
+      </select>
+        <img src="classicyes.jpg" alt="classic" width="30" height="30">
+        <img src="onebigno.jpg" alt="one-big" width="30" height="30">
+        <img src="onesmallno.jpg" alt="one-small" width="30" height="30">
+        <fieldset class="catalog-list">
+          <a href="#">
+          <img src="Amare-resort&spa.jpg" alt="Amare-resort&spa">
+          <br><strong>Amara Resort & Spa</strong>
+          <br><small>Гостиница     От 4000₽</small></a>
+          <br><button>ПОДРОБНЕЕ</button>
+          <button>В ИЗБРАННОЕ</button>
+          <br><img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <label>Рейтинг:</label><input type="text" value="8,5" disabled>
+        </fieldset>
+        <fieldset class="catalog-list">
+          <a href="#">
+          <img src="diablo.jpg" alt="diablo">
+          <br><strong> Villas at Poco Diablo</strong>
+          <br><small>Гостиница     От 5000₽</small></a>
+          <br><button>ПОДРОБНЕЕ</button>
+          <button>В ИЗБРАННОМ</button>
+          <br><img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <label>Рейтинг:</label><input type="text" value="9,2" disabled>
+        </fieldset>
+        <fieldset class="catalog-list">
+          <a href="#">
+          <img src="desert.jpg" alt="desert">
+          <br><strong></strong>
+          <br><small>Гостиница     От 2500₽</small></a>
+          <br><button>ПОДРОБНЕЕ</button>
+          <button>В ИЗБРАННОЕ</button>
+          <br><img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <label>Рейтинг:</label><input type="text" value="6,9" disabled>
+        </fieldset>
+        <fieldset class="catalog-list">
+          <a href="#">
+          <img src="greentree.jpg" alt="greentree">
+          <br><strong></strong>
+          <br><small>Гостиница     От 1500₽</small></a>
+          <br><button>ПОДРОБНЕЕ</button>
+          <button>В ИЗБРАННОЕ</button>
+          <br><img src="star.jpg" alt="star">
+          <img src="star.jpg" alt="star">
+          <label>Рейтинг:</label><input type="text" value="5,0" disabled>
+        </fieldset>
+        <fieldset><button>1</button><button>2</button><button>3</button><button>4</button><button>...</button><button>10</button></fieldset></section>
+        <h3>ПОДПЕШИСЬ НА РАСЫЛКУ</h3>
+        <p>Только полезная информация и никакого спама,
+            <br>честное бойскаутское!:)</p>
+               <input type="text" placeholder="Ваш e-mail">
+   <button>ПОДПИСАТЬСЯ</button>
+  </main>
+ <a href="https://vk.com/htmlacademy"><img src="vkhtmlacademy.jpg" alt="VK_html-acadeny"></a>
+ <a href="https://t.me/htmlacademy"><img src="tlhtnlacademy.jpg" alt="TL_html-academy"></a>
+ <a href="https://www.youtube.com/@HTMLAcademyRUS"><img src="ythtmlacademy.jpg" alt="YT_html-academy"></a>
+ <img src="telhtmlacademy.jpg" alt="номер_телефона">
+ <img src="htmlacademy.jpg" alt="htmlacademy">
+</body>
