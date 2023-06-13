@@ -1,0 +1,59 @@
+#a1main-index{
+  font-family: 'Roboto Mono', monospace;
+  color: #81B3D3;
+  margin-left: 450px;
+  font-size: 35px;
+}
+
+#to-the-gorgeus{
+  color: #766458;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 443px;
+  font-size: 25px;
+}
+#a1main-indextwo{
+  font-family: 'Patua One', cursive;
+  color: #FFFFFF;
+  margin-left: 380px;
+  font-size: 79px;
+}
+#to-the-gorgeustwo{
+  font-family: 'Dancing Script', cursive;
+  color: #FFFFFF;
+  margin-left: 420px;
+  font-size: 30px;
+}
+#to-the-gorgeusthree{
+  font-family: 'Dancing Script', cursive;
+  color: #FFFFFF;
+  margin-left: 448px;
+  font-size: 30px;
+}
+#imagessot{
+  margin-left: 3px;
+}
+#imagessottwo{
+  margin-left: 12px;
+  color: #000000;
+  font-size: 16PX;
+}
+#htmlacademy{
+  margin-left: 1110px;
+  font-size: 16PX;
+}
+#tell{
+  margin-left: 600px;
+}
+#img-welcome-to-sedona{
+  background: url(img/welcome-to-Sedona.jpg) no-repeat;
+  width: 1200px;
+  height: 485px;
+  position: absolute;
+ left: 0%;
+ right: 0%;
+ top: 0%;
+ bottom: 36.77%;
+}
+.advantages-head{
+  margin-top: 150px;
+}
